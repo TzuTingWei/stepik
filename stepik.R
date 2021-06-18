@@ -2,9 +2,9 @@
 ### 18/06/2021
 
 ### welcome Q1
-df <- read.table("/Users/cindywei/Downloads/input.txt", sep = " ")
+df <- read.table("./input.txt", sep = " ")
 
-write.table(apply(df, 1, sum), file = "/Users/cindywei/Downloads/answer.txt", 
+write.table(apply(df, 1, sum), file = "./answer.txt", 
             sep = "\n", row.names = F, col.names = F, quote = F)
 
 ### epigentic Q1
